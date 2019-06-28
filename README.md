@@ -3,6 +3,7 @@
 ### step 1:
 
 $ mkdir data
+
 $ chmod 777 ./data -R
 
 ### step 2:
