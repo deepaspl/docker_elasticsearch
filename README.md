@@ -1,4 +1,4 @@
-# docker-mariadb
+# docker elasticsearch
 
 ### step 1:
 
