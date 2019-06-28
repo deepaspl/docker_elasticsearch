@@ -1,26 +1,15 @@
-# stack-docker
-This example Docker Compose configuration demonstrates many components of the
-Elastic Stack, all running on a single machine under Docker.
+# docker-mariadb
 
-## Prerequisites
-- Docker and Compose. Windows and Mac users get Compose installed automatically
-with Docker. Linux users can:
-```
-pip install docker-compose
-```
+### step 1:
 
-- At least 4GiB of RAM for the containers. Windows and Mac users _must_
-configure their Docker virtual machine to have more than the default 2 GiB of
-RAM:
+$ chmod 777 ./data -R
 
-![Docker VM memory settings](screenshots/docker-vm-memory-settings.png)
+### step 2:
 
-## Starting the stack
-Try `docker-compose up` to create a demonstration Elastic Stack with
-Elasticsearch, Kibana, Logstash, APM Server, Auditbeat, Metricbeat, Filebeat,
-Packetbeat, and Heartbeat.
+$ docker-compose up
 
-Point a browser at [`http://localhost:5601`](http://localhost:5601) to see the results.
-# docker_elasticsearch
-# docker_elasticsearch
-# docker_elasticsearch
+## kibana
+http://127.0.0.1:5601
+
+## elasticsearch
+192.168.100.5:9200
